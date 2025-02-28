@@ -1,0 +1,961 @@
+run_number,model_name,metric,class,value
+1,Base distil-mBERT,precision,negative,0.6398
+1,Fine-tuned distil-mBERT,precision,negative,0.6627
+1,Base RuBERT,precision,negative,0.523
+1,Fine-tuned RuBERT,precision,negative,0.6818
+1,Base mBERT,precision,negative,0.6016
+1,Fine-tuned mBERT,precision,negative,0.6473
+1,Base distil-mBERT,precision,neutral,0.9201
+1,Fine-tuned distil-mBERT,precision,neutral,0.9458
+1,Base RuBERT,precision,neutral,0.9
+1,Fine-tuned RuBERT,precision,neutral,0.939
+1,Base mBERT,precision,neutral,0.9345
+1,Fine-tuned mBERT,precision,neutral,0.9359
+1,Base distil-mBERT,precision,positive,0.7413
+1,Fine-tuned distil-mBERT,precision,positive,0.7785
+1,Base RuBERT,precision,positive,0.6612
+1,Fine-tuned RuBERT,precision,positive,0.7793
+1,Base mBERT,precision,positive,0.7092
+1,Fine-tuned mBERT,precision,positive,0.8099
+1,Base distil-mBERT,precision,macro avg,0.7671
+1,Fine-tuned distil-mBERT,precision,macro avg,0.7957
+1,Base RuBERT,precision,macro avg,0.6947
+1,Fine-tuned RuBERT,precision,macro avg,0.8
+1,Base mBERT,precision,macro avg,0.7484
+1,Fine-tuned mBERT,precision,macro avg,0.7977
+1,Base distil-mBERT,precision,weighted avg,0.8221
+1,Fine-tuned distil-mBERT,precision,weighted avg,0.8504
+1,Base RuBERT,precision,weighted avg,0.7686
+1,Fine-tuned RuBERT,precision,weighted avg,0.8502
+1,Base mBERT,precision,weighted avg,0.8147
+1,Fine-tuned mBERT,precision,weighted avg,0.8503
+1,Base distil-mBERT,recall,negative,0.7588
+1,Fine-tuned distil-mBERT,recall,negative,0.8492
+1,Base RuBERT,recall,negative,0.7437
+1,Fine-tuned RuBERT,recall,negative,0.8291
+1,Base mBERT,recall,negative,0.7588
+1,Fine-tuned mBERT,recall,negative,0.8392
+1,Base distil-mBERT,recall,neutral,0.8703
+1,Fine-tuned distil-mBERT,recall,neutral,0.8604
+1,Base RuBERT,recall,neutral,0.8424
+1,Fine-tuned RuBERT,recall,neutral,0.8588
+1,Base mBERT,recall,neutral,0.867
+1,Fine-tuned mBERT,recall,neutral,0.8867
+1,Base distil-mBERT,recall,positive,0.731
+1,Fine-tuned distil-mBERT,recall,positive,0.7759
+1,Base RuBERT,recall,positive,0.5586
+1,Fine-tuned RuBERT,recall,positive,0.8034
+1,Base mBERT,recall,positive,0.6897
+1,Fine-tuned mBERT,recall,positive,0.7345
+1,Base distil-mBERT,recall,macro avg,0.7867
+1,Fine-tuned distil-mBERT,recall,macro avg,0.8285
+1,Base RuBERT,recall,macro avg,0.7149
+1,Fine-tuned RuBERT,recall,macro avg,0.8305
+1,Base mBERT,recall,macro avg,0.7718
+1,Fine-tuned mBERT,recall,macro avg,0.8201
+1,Base distil-mBERT,recall,weighted avg,0.8133
+1,Fine-tuned distil-mBERT,recall,weighted avg,0.8361
+1,Base RuBERT,recall,weighted avg,0.7495
+1,Fine-tuned RuBERT,recall,weighted avg,0.8388
+1,Base mBERT,recall,weighted avg,0.8005
+1,Fine-tuned mBERT,recall,weighted avg,0.8379
+1,Base distil-mBERT,f1-score,negative,0.6943
+1,Fine-tuned distil-mBERT,f1-score,negative,0.7445
+1,Base RuBERT,f1-score,negative,0.6141
+1,Fine-tuned RuBERT,f1-score,negative,0.7483
+1,Base mBERT,f1-score,negative,0.6711
+1,Fine-tuned mBERT,f1-score,negative,0.7309
+1,Base distil-mBERT,f1-score,neutral,0.8945
+1,Fine-tuned distil-mBERT,f1-score,neutral,0.9011
+1,Base RuBERT,f1-score,neutral,0.8702
+1,Fine-tuned RuBERT,f1-score,neutral,0.8971
+1,Base mBERT,f1-score,neutral,0.8995
+1,Fine-tuned mBERT,f1-score,neutral,0.9106
+1,Base distil-mBERT,f1-score,positive,0.7361
+1,Fine-tuned distil-mBERT,f1-score,positive,0.7772
+1,Base RuBERT,f1-score,positive,0.6056
+1,Fine-tuned RuBERT,f1-score,positive,0.7912
+1,Base mBERT,f1-score,positive,0.6993
+1,Fine-tuned mBERT,f1-score,positive,0.7703
+1,Base distil-mBERT,f1-score,macro avg,0.775
+1,Fine-tuned distil-mBERT,f1-score,macro avg,0.8076
+1,Base RuBERT,f1-score,macro avg,0.6966
+1,Fine-tuned RuBERT,f1-score,macro avg,0.8122
+1,Base mBERT,f1-score,macro avg,0.7566
+1,Fine-tuned mBERT,f1-score,macro avg,0.8039
+1,Base distil-mBERT,f1-score,weighted avg,0.8164
+1,Fine-tuned distil-mBERT,f1-score,weighted avg,0.84
+1,Base RuBERT,f1-score,weighted avg,0.7539
+1,Fine-tuned RuBERT,f1-score,weighted avg,0.8421
+1,Base mBERT,f1-score,weighted avg,0.8052
+1,Fine-tuned mBERT,f1-score,weighted avg,0.841
+1,Base distil-mBERT,accuracy,,0.8133
+1,Fine-tuned distil-mBERT,accuracy,,0.8361
+1,Base RuBERT,accuracy,,0.7495
+1,Fine-tuned RuBERT,accuracy,,0.8388
+1,Base mBERT,accuracy,,0.8005
+1,Fine-tuned mBERT,accuracy,,0.8379
+2,Base distil-mBERT,precision,negative,0.6199
+2,Fine-tuned distil-mBERT,precision,negative,0.6732
+2,Base RuBERT,precision,negative,0.5152
+2,Fine-tuned RuBERT,precision,negative,0.7095
+2,Base mBERT,precision,negative,0.5843
+2,Fine-tuned mBERT,precision,negative,0.6159
+2,Base distil-mBERT,precision,neutral,0.9193
+2,Fine-tuned distil-mBERT,precision,neutral,0.9424
+2,Base RuBERT,precision,neutral,0.9279
+2,Fine-tuned RuBERT,precision,neutral,0.9142
+2,Base mBERT,precision,neutral,0.9397
+2,Fine-tuned mBERT,precision,neutral,0.9382
+2,Base distil-mBERT,precision,positive,0.7626
+2,Fine-tuned distil-mBERT,precision,positive,0.7649
+2,Base RuBERT,precision,positive,0.6689
+2,Fine-tuned RuBERT,precision,positive,0.7727
+2,Base mBERT,precision,positive,0.7116
+2,Fine-tuned mBERT,precision,positive,0.7206
+2,Base distil-mBERT,precision,macro avg,0.7673
+2,Fine-tuned distil-mBERT,precision,macro avg,0.7935
+2,Base RuBERT,precision,macro avg,0.704
+2,Fine-tuned RuBERT,precision,macro avg,0.7988
+2,Base mBERT,precision,macro avg,0.7452
+2,Fine-tuned mBERT,precision,macro avg,0.7582
+2,Base distil-mBERT,precision,weighted avg,0.8237
+2,Fine-tuned distil-mBERT,precision,weighted avg,0.8467
+2,Base RuBERT,precision,weighted avg,0.7847
+2,Fine-tuned RuBERT,precision,weighted avg,0.8397
+2,Base mBERT,precision,weighted avg,0.815
+2,Fine-tuned mBERT,precision,weighted avg,0.8223
+2,Base distil-mBERT,recall,negative,0.8442
+2,Fine-tuned distil-mBERT,recall,negative,0.8693
+2,Base RuBERT,recall,negative,0.6834
+2,Fine-tuned RuBERT,recall,negative,0.8593
+2,Base mBERT,recall,negative,0.7839
+2,Fine-tuned mBERT,recall,negative,0.8543
+2,Base distil-mBERT,recall,neutral,0.8604
+2,Fine-tuned distil-mBERT,recall,neutral,0.8604
+2,Base RuBERT,recall,neutral,0.8243
+2,Fine-tuned RuBERT,recall,neutral,0.8571
+2,Base mBERT,recall,neutral,0.8703
+2,Fine-tuned mBERT,recall,neutral,0.8473
+2,Base distil-mBERT,recall,positive,0.6759
+2,Fine-tuned distil-mBERT,recall,positive,0.7517
+2,Base RuBERT,recall,positive,0.6759
+2,Fine-tuned RuBERT,recall,positive,0.7621
+2,Base mBERT,recall,positive,0.6552
+2,Fine-tuned mBERT,recall,positive,0.6759
+2,Base distil-mBERT,recall,macro avg,0.7935
+2,Fine-tuned distil-mBERT,recall,macro avg,0.8272
+2,Base RuBERT,recall,macro avg,0.7279
+2,Fine-tuned RuBERT,recall,macro avg,0.8262
+2,Base mBERT,recall,macro avg,0.7698
+2,Fine-tuned mBERT,recall,macro avg,0.7925
+2,Base distil-mBERT,recall,weighted avg,0.8087
+2,Fine-tuned distil-mBERT,recall,weighted avg,0.8333
+2,Base RuBERT,recall,weighted avg,0.7596
+2,Fine-tuned RuBERT,recall,weighted avg,0.8324
+2,Base mBERT,recall,weighted avg,0.7978
+2,Fine-tuned mBERT,recall,weighted avg,0.8033
+2,Base distil-mBERT,f1-score,negative,0.7149
+2,Fine-tuned distil-mBERT,f1-score,negative,0.7588
+2,Base RuBERT,f1-score,negative,0.5875
+2,Fine-tuned RuBERT,f1-score,negative,0.7773
+2,Base mBERT,f1-score,negative,0.6695
+2,Fine-tuned mBERT,f1-score,negative,0.7158
+2,Base distil-mBERT,f1-score,neutral,0.8889
+2,Fine-tuned distil-mBERT,f1-score,neutral,0.8996
+2,Base RuBERT,f1-score,neutral,0.873
+2,Fine-tuned RuBERT,f1-score,neutral,0.8847
+2,Base mBERT,f1-score,neutral,0.9037
+2,Fine-tuned mBERT,f1-score,neutral,0.8904
+2,Base distil-mBERT,f1-score,positive,0.7166
+2,Fine-tuned distil-mBERT,f1-score,positive,0.7583
+2,Base RuBERT,f1-score,positive,0.6724
+2,Fine-tuned RuBERT,f1-score,positive,0.7674
+2,Base mBERT,f1-score,positive,0.6822
+2,Fine-tuned mBERT,f1-score,positive,0.6975
+2,Base distil-mBERT,f1-score,macro avg,0.7735
+2,Fine-tuned distil-mBERT,f1-score,macro avg,0.8055
+2,Base RuBERT,f1-score,macro avg,0.711
+2,Fine-tuned RuBERT,f1-score,macro avg,0.8098
+2,Base mBERT,f1-score,macro avg,0.7518
+2,Fine-tuned mBERT,f1-score,macro avg,0.7679
+2,Base distil-mBERT,f1-score,weighted avg,0.8119
+2,Fine-tuned distil-mBERT,f1-score,weighted avg,0.8367
+2,Base RuBERT,f1-score,weighted avg,0.7683
+2,Fine-tuned RuBERT,f1-score,weighted avg,0.8343
+2,Base mBERT,f1-score,weighted avg,0.8027
+2,Fine-tuned mBERT,f1-score,weighted avg,0.8078
+2,Base distil-mBERT,accuracy,,0.8087
+2,Fine-tuned distil-mBERT,accuracy,,0.8333
+2,Base RuBERT,accuracy,,0.7596
+2,Fine-tuned RuBERT,accuracy,,0.8324
+2,Base mBERT,accuracy,,0.7978
+2,Fine-tuned mBERT,accuracy,,0.8033
+3,Base distil-mBERT,precision,negative,0.6441
+3,Fine-tuned distil-mBERT,precision,negative,0.6408
+3,Base RuBERT,precision,negative,0.4767
+3,Fine-tuned RuBERT,precision,negative,0.6537
+3,Base mBERT,precision,negative,0.5915
+3,Fine-tuned mBERT,precision,negative,0.6314
+3,Base distil-mBERT,precision,neutral,0.9339
+3,Fine-tuned distil-mBERT,precision,neutral,0.9405
+3,Base RuBERT,precision,neutral,0.9037
+3,Fine-tuned RuBERT,precision,neutral,0.9519
+3,Base mBERT,precision,neutral,0.9347
+3,Fine-tuned mBERT,precision,neutral,0.9396
+3,Base distil-mBERT,precision,positive,0.8016
+3,Fine-tuned distil-mBERT,precision,positive,0.8108
+3,Base RuBERT,precision,positive,0.5891
+3,Fine-tuned RuBERT,precision,positive,0.7891
+3,Base mBERT,precision,positive,0.711
+3,Fine-tuned mBERT,precision,positive,0.8347
+3,Base distil-mBERT,precision,macro avg,0.7932
+3,Fine-tuned distil-mBERT,precision,macro avg,0.7974
+3,Base RuBERT,precision,macro avg,0.6565
+3,Fine-tuned RuBERT,precision,macro avg,0.7982
+3,Base mBERT,precision,macro avg,0.7457
+3,Fine-tuned mBERT,precision,macro avg,0.8019
+3,Base distil-mBERT,precision,weighted avg,0.8464
+3,Fine-tuned distil-mBERT,precision,weighted avg,0.852
+3,Base RuBERT,precision,weighted avg,0.7433
+3,Fine-tuned RuBERT,precision,weighted avg,0.8548
+3,Base mBERT,precision,weighted avg,0.8134
+3,Fine-tuned mBERT,precision,weighted avg,0.856
+3,Base distil-mBERT,recall,negative,0.9095
+3,Fine-tuned distil-mBERT,recall,negative,0.9146
+3,Base RuBERT,recall,negative,0.6683
+3,Fine-tuned RuBERT,recall,negative,0.9296
+3,Base mBERT,recall,negative,0.8442
+3,Fine-tuned mBERT,recall,negative,0.9296
+3,Base distil-mBERT,recall,neutral,0.8588
+3,Fine-tuned distil-mBERT,recall,neutral,0.8571
+3,Base RuBERT,recall,neutral,0.8325
+3,Fine-tuned RuBERT,recall,neutral,0.844
+3,Base mBERT,recall,neutral,0.8456
+3,Fine-tuned mBERT,recall,neutral,0.8686
+3,Base distil-mBERT,recall,positive,0.7103
+3,Fine-tuned distil-mBERT,recall,positive,0.7241
+3,Base RuBERT,recall,positive,0.5241
+3,Fine-tuned RuBERT,recall,positive,0.7483
+3,Base mBERT,recall,positive,0.6448
+3,Fine-tuned mBERT,recall,positive,0.6966
+3,Base distil-mBERT,recall,macro avg,0.8262
+3,Fine-tuned distil-mBERT,recall,macro avg,0.832
+3,Base RuBERT,recall,macro avg,0.675
+3,Fine-tuned RuBERT,recall,macro avg,0.8406
+3,Base mBERT,recall,macro avg,0.7782
+3,Fine-tuned mBERT,recall,macro avg,0.8316
+3,Base distil-mBERT,recall,weighted avg,0.8288
+3,Fine-tuned distil-mBERT,recall,weighted avg,0.8324
+3,Base RuBERT,recall,weighted avg,0.7213
+3,Fine-tuned RuBERT,recall,weighted avg,0.8342
+3,Base mBERT,recall,weighted avg,0.7923
+3,Fine-tuned mBERT,recall,weighted avg,0.8342
+3,Base distil-mBERT,f1-score,negative,0.7542
+3,Fine-tuned distil-mBERT,f1-score,negative,0.7536
+3,Base RuBERT,f1-score,negative,0.5565
+3,Fine-tuned RuBERT,f1-score,negative,0.7676
+3,Base mBERT,f1-score,negative,0.6957
+3,Fine-tuned mBERT,f1-score,negative,0.752
+3,Base distil-mBERT,f1-score,neutral,0.8948
+3,Fine-tuned distil-mBERT,f1-score,neutral,0.8969
+3,Base RuBERT,f1-score,neutral,0.8667
+3,Fine-tuned RuBERT,f1-score,neutral,0.8947
+3,Base mBERT,f1-score,neutral,0.8879
+3,Fine-tuned mBERT,f1-score,neutral,0.9027
+3,Base distil-mBERT,f1-score,positive,0.7532
+3,Fine-tuned distil-mBERT,f1-score,positive,0.765
+3,Base RuBERT,f1-score,positive,0.5547
+3,Fine-tuned RuBERT,f1-score,positive,0.7681
+3,Base mBERT,f1-score,positive,0.6763
+3,Fine-tuned mBERT,f1-score,positive,0.7594
+3,Base distil-mBERT,f1-score,macro avg,0.8007
+3,Fine-tuned distil-mBERT,f1-score,macro avg,0.8052
+3,Base RuBERT,f1-score,macro avg,0.6593
+3,Fine-tuned RuBERT,f1-score,macro avg,0.8102
+3,Base mBERT,f1-score,macro avg,0.7533
+3,Fine-tuned mBERT,f1-score,macro avg,0.8047
+3,Base distil-mBERT,f1-score,weighted avg,0.8319
+3,Fine-tuned distil-mBERT,f1-score,weighted avg,0.8361
+3,Base RuBERT,f1-score,weighted avg,0.7281
+3,Fine-tuned RuBERT,f1-score,weighted avg,0.8382
+3,Base mBERT,f1-score,weighted avg,0.7972
+3,Fine-tuned mBERT,f1-score,weighted avg,0.8376
+3,Base distil-mBERT,accuracy,,0.8288
+3,Fine-tuned distil-mBERT,accuracy,,0.8324
+3,Base RuBERT,accuracy,,0.7213
+3,Fine-tuned RuBERT,accuracy,,0.8342
+3,Base mBERT,accuracy,,0.7923
+3,Fine-tuned mBERT,accuracy,,0.8342
+4,Base distil-mBERT,precision,negative,0.6531
+4,Fine-tuned distil-mBERT,precision,negative,0.6586
+4,Base RuBERT,precision,negative,0.5312
+4,Fine-tuned RuBERT,precision,negative,0.652
+4,Base mBERT,precision,negative,0.6
+4,Fine-tuned mBERT,precision,negative,0.5965
+4,Base distil-mBERT,precision,neutral,0.9321
+4,Fine-tuned distil-mBERT,precision,neutral,0.9361
+4,Base RuBERT,precision,neutral,0.897
+4,Fine-tuned RuBERT,precision,neutral,0.9281
+4,Base mBERT,precision,neutral,0.9366
+4,Fine-tuned mBERT,precision,neutral,0.9297
+4,Base distil-mBERT,precision,positive,0.7679
+4,Fine-tuned distil-mBERT,precision,positive,0.7832
+4,Base RuBERT,precision,positive,0.6287
+4,Fine-tuned RuBERT,precision,positive,0.8
+4,Base mBERT,precision,positive,0.749
+4,Fine-tuned mBERT,precision,positive,0.7992
+4,Base distil-mBERT,precision,macro avg,0.7844
+4,Fine-tuned distil-mBERT,precision,macro avg,0.7926
+4,Base RuBERT,precision,macro avg,0.6857
+4,Fine-tuned RuBERT,precision,macro avg,0.7934
+4,Base mBERT,precision,macro avg,0.7619
+4,Fine-tuned mBERT,precision,macro avg,0.7751
+4,Base distil-mBERT,precision,weighted avg,0.8382
+4,Fine-tuned distil-mBERT,precision,weighted avg,0.8454
+4,Base RuBERT,precision,weighted avg,0.7599
+4,Fine-tuned RuBERT,precision,weighted avg,0.8442
+4,Base mBERT,precision,weighted avg,0.8261
+4,Fine-tuned mBERT,precision,weighted avg,0.8348
+4,Base distil-mBERT,recall,negative,0.804
+4,Fine-tuned distil-mBERT,recall,negative,0.8241
+4,Base RuBERT,recall,negative,0.7688
+4,Fine-tuned RuBERT,recall,negative,0.8945
+4,Base mBERT,recall,negative,0.8291
+4,Fine-tuned mBERT,recall,negative,0.8543
+4,Base distil-mBERT,recall,neutral,0.8571
+4,Fine-tuned distil-mBERT,recall,neutral,0.8654
+4,Base RuBERT,recall,neutral,0.844
+4,Fine-tuned RuBERT,recall,neutral,0.8686
+4,Base mBERT,recall,neutral,0.8736
+4,Fine-tuned mBERT,recall,neutral,0.8686
+4,Base distil-mBERT,recall,positive,0.7759
+4,Fine-tuned distil-mBERT,recall,positive,0.7724
+4,Base RuBERT,recall,positive,0.5138
+4,Fine-tuned RuBERT,recall,positive,0.7034
+4,Base mBERT,recall,positive,0.6586
+4,Fine-tuned mBERT,recall,positive,0.6724
+4,Base distil-mBERT,recall,macro avg,0.8123
+4,Fine-tuned distil-mBERT,recall,macro avg,0.8206
+4,Base RuBERT,recall,macro avg,0.7089
+4,Fine-tuned RuBERT,recall,macro avg,0.8222
+4,Base mBERT,recall,macro avg,0.7871
+4,Fine-tuned mBERT,recall,macro avg,0.7984
+4,Base distil-mBERT,recall,weighted avg,0.826
+4,Fine-tuned distil-mBERT,recall,weighted avg,0.8333
+4,Base RuBERT,recall,weighted avg,0.7432
+4,Fine-tuned RuBERT,recall,weighted avg,0.8297
+4,Base mBERT,recall,weighted avg,0.8087
+4,Fine-tuned mBERT,recall,weighted avg,0.8142
+4,Base distil-mBERT,f1-score,negative,0.7207
+4,Fine-tuned distil-mBERT,f1-score,negative,0.7321
+4,Base RuBERT,f1-score,negative,0.6283
+4,Fine-tuned RuBERT,f1-score,negative,0.7542
+4,Base mBERT,f1-score,negative,0.6962
+4,Fine-tuned mBERT,f1-score,negative,0.7025
+4,Base distil-mBERT,f1-score,neutral,0.8931
+4,Fine-tuned distil-mBERT,f1-score,neutral,0.8993
+4,Base RuBERT,f1-score,neutral,0.8697
+4,Fine-tuned RuBERT,f1-score,neutral,0.8974
+4,Base mBERT,f1-score,neutral,0.904
+4,Fine-tuned mBERT,f1-score,neutral,0.8981
+4,Base distil-mBERT,f1-score,positive,0.7719
+4,Fine-tuned distil-mBERT,f1-score,positive,0.7778
+4,Base RuBERT,f1-score,positive,0.5655
+4,Fine-tuned RuBERT,f1-score,positive,0.7486
+4,Base mBERT,f1-score,positive,0.7009
+4,Fine-tuned mBERT,f1-score,positive,0.7303
+4,Base distil-mBERT,f1-score,macro avg,0.7952
+4,Fine-tuned distil-mBERT,f1-score,macro avg,0.8031
+4,Base RuBERT,f1-score,macro avg,0.6878
+4,Fine-tuned RuBERT,f1-score,macro avg,0.8001
+4,Base mBERT,f1-score,macro avg,0.767
+4,Fine-tuned mBERT,f1-score,macro avg,0.777
+4,Base distil-mBERT,f1-score,weighted avg,0.8298
+4,Fine-tuned distil-mBERT,f1-score,weighted avg,0.8369
+4,Base RuBERT,f1-score,weighted avg,0.7456
+4,Fine-tuned RuBERT,f1-score,weighted avg,0.8321
+4,Base mBERT,f1-score,weighted avg,0.8127
+4,Fine-tuned mBERT,f1-score,weighted avg,0.8184
+4,Base distil-mBERT,accuracy,,0.826
+4,Fine-tuned distil-mBERT,accuracy,,0.8333
+4,Base RuBERT,accuracy,,0.7432
+4,Fine-tuned RuBERT,accuracy,,0.8297
+4,Base mBERT,accuracy,,0.8087
+4,Fine-tuned mBERT,accuracy,,0.8142
+5,Base distil-mBERT,precision,negative,0.5942
+5,Fine-tuned distil-mBERT,precision,negative,0.6274
+5,Base RuBERT,precision,negative,0.4903
+5,Fine-tuned RuBERT,precision,negative,0.6429
+5,Base mBERT,precision,negative,0.5811
+5,Fine-tuned mBERT,precision,negative,0.6444
+5,Base distil-mBERT,precision,neutral,0.929
+5,Fine-tuned distil-mBERT,precision,neutral,0.9302
+5,Base RuBERT,precision,neutral,0.918
+5,Fine-tuned RuBERT,precision,neutral,0.9287
+5,Base mBERT,precision,neutral,0.9278
+5,Fine-tuned mBERT,precision,neutral,0.9514
+5,Base distil-mBERT,precision,positive,0.7568
+5,Fine-tuned distil-mBERT,precision,positive,0.75
+5,Base RuBERT,precision,positive,0.59
+5,Fine-tuned RuBERT,precision,positive,0.7823
+5,Base mBERT,precision,positive,0.7177
+5,Fine-tuned mBERT,precision,positive,0.7978
+5,Base distil-mBERT,precision,macro avg,0.76
+5,Fine-tuned distil-mBERT,precision,macro avg,0.7692
+5,Base RuBERT,precision,macro avg,0.6661
+5,Fine-tuned RuBERT,precision,macro avg,0.7846
+5,Base mBERT,precision,macro avg,0.7422
+5,Fine-tuned mBERT,precision,macro avg,0.7979
+5,Base distil-mBERT,precision,weighted avg,0.8228
+5,Fine-tuned distil-mBERT,precision,weighted avg,0.8277
+5,Base RuBERT,precision,weighted avg,0.7539
+5,Fine-tuned RuBERT,precision,weighted avg,0.8382
+5,Base mBERT,precision,weighted avg,0.8095
+5,Fine-tuned mBERT,precision,weighted avg,0.8552
+5,Base distil-mBERT,recall,negative,0.8241
+5,Fine-tuned distil-mBERT,recall,negative,0.8291
+5,Base RuBERT,recall,negative,0.7638
+5,Fine-tuned RuBERT,recall,negative,0.8593
+5,Base mBERT,recall,negative,0.8643
+5,Fine-tuned mBERT,recall,negative,0.8744
+5,Base distil-mBERT,recall,neutral,0.8588
+5,Fine-tuned distil-mBERT,recall,neutral,0.8539
+5,Base RuBERT,recall,neutral,0.8276
+5,Fine-tuned RuBERT,recall,neutral,0.8555
+5,Base mBERT,recall,neutral,0.844
+5,Fine-tuned mBERT,recall,neutral,0.8686
+5,Base distil-mBERT,recall,positive,0.6759
+5,Fine-tuned distil-mBERT,recall,positive,0.7138
+5,Base RuBERT,recall,positive,0.4862
+5,Fine-tuned RuBERT,recall,positive,0.731
+5,Base mBERT,recall,positive,0.6138
+5,Fine-tuned mBERT,recall,positive,0.7483
+5,Base distil-mBERT,recall,macro avg,0.7863
+5,Fine-tuned distil-mBERT,recall,macro avg,0.7989
+5,Base RuBERT,recall,macro avg,0.6925
+5,Fine-tuned RuBERT,recall,macro avg,0.8153
+5,Base mBERT,recall,macro avg,0.774
+5,Fine-tuned mBERT,recall,macro avg,0.8304
+5,Base distil-mBERT,recall,weighted avg,0.8042
+5,Fine-tuned distil-mBERT,recall,weighted avg,0.8124
+5,Base RuBERT,recall,weighted avg,0.7259
+5,Fine-tuned RuBERT,recall,weighted avg,0.8233
+5,Base mBERT,recall,weighted avg,0.7869
+5,Fine-tuned mBERT,recall,weighted avg,0.8379
+5,Base distil-mBERT,f1-score,negative,0.6905
+5,Fine-tuned distil-mBERT,f1-score,negative,0.7143
+5,Base RuBERT,f1-score,negative,0.5972
+5,Fine-tuned RuBERT,f1-score,negative,0.7355
+5,Base mBERT,f1-score,negative,0.6949
+5,Fine-tuned mBERT,f1-score,negative,0.742
+5,Base distil-mBERT,f1-score,neutral,0.8925
+5,Fine-tuned distil-mBERT,f1-score,neutral,0.8904
+5,Base RuBERT,f1-score,neutral,0.8705
+5,Fine-tuned RuBERT,f1-score,neutral,0.8906
+5,Base mBERT,f1-score,neutral,0.8839
+5,Fine-tuned mBERT,f1-score,neutral,0.9082
+5,Base distil-mBERT,f1-score,positive,0.714
+5,Fine-tuned distil-mBERT,f1-score,positive,0.7314
+5,Base RuBERT,f1-score,positive,0.5331
+5,Fine-tuned RuBERT,f1-score,positive,0.7558
+5,Base mBERT,f1-score,positive,0.6617
+5,Fine-tuned mBERT,f1-score,positive,0.7722
+5,Base distil-mBERT,f1-score,macro avg,0.7657
+5,Fine-tuned distil-mBERT,f1-score,macro avg,0.7787
+5,Base RuBERT,f1-score,macro avg,0.6669
+5,Fine-tuned RuBERT,f1-score,macro avg,0.794
+5,Base mBERT,f1-score,macro avg,0.7469
+5,Fine-tuned mBERT,f1-score,macro avg,0.8075
+5,Base distil-mBERT,f1-score,weighted avg,0.8088
+5,Fine-tuned distil-mBERT,f1-score,weighted avg,0.8165
+5,Base RuBERT,f1-score,weighted avg,0.7318
+5,Fine-tuned RuBERT,f1-score,weighted avg,0.8269
+5,Base mBERT,f1-score,weighted avg,0.791
+5,Fine-tuned mBERT,f1-score,weighted avg,0.8421
+5,Base distil-mBERT,accuracy,,0.8042
+5,Fine-tuned distil-mBERT,accuracy,,0.8124
+5,Base RuBERT,accuracy,,0.7259
+5,Fine-tuned RuBERT,accuracy,,0.8233
+5,Base mBERT,accuracy,,0.7869
+5,Fine-tuned mBERT,accuracy,,0.8379
+6,Base distil-mBERT,precision,negative,0.6562
+6,Fine-tuned distil-mBERT,precision,negative,0.6984
+6,Base RuBERT,precision,negative,0.5556
+6,Fine-tuned RuBERT,precision,negative,0.6706
+6,Base mBERT,precision,negative,0.6122
+6,Fine-tuned mBERT,precision,negative,0.614
+6,Base distil-mBERT,precision,neutral,0.91
+6,Fine-tuned distil-mBERT,precision,neutral,0.9082
+6,Base RuBERT,precision,neutral,0.886
+6,Fine-tuned RuBERT,precision,neutral,0.9078
+6,Base mBERT,precision,neutral,0.9187
+6,Fine-tuned mBERT,precision,neutral,0.9055
+6,Base distil-mBERT,precision,positive,0.8103
+6,Fine-tuned distil-mBERT,precision,positive,0.814
+6,Base RuBERT,precision,positive,0.6318
+6,Fine-tuned RuBERT,precision,positive,0.7599
+6,Base mBERT,precision,positive,0.7063
+6,Fine-tuned mBERT,precision,positive,0.7623
+6,Base distil-mBERT,precision,macro avg,0.7922
+6,Fine-tuned distil-mBERT,precision,macro avg,0.8068
+6,Base RuBERT,precision,macro avg,0.6911
+6,Fine-tuned RuBERT,precision,macro avg,0.7794
+6,Base mBERT,precision,macro avg,0.7457
+6,Fine-tuned mBERT,precision,macro avg,0.7606
+6,Base distil-mBERT,precision,weighted avg,0.8377
+6,Fine-tuned distil-mBERT,precision,weighted avg,0.8453
+6,Base RuBERT,precision,weighted avg,0.7589
+6,Fine-tuned RuBERT,precision,weighted avg,0.8257
+6,Base mBERT,precision,weighted avg,0.8071
+6,Fine-tuned mBERT,precision,weighted avg,0.8148
+6,Base distil-mBERT,recall,negative,0.8442
+6,Fine-tuned distil-mBERT,recall,negative,0.8844
+6,Base RuBERT,recall,negative,0.7538
+6,Fine-tuned RuBERT,recall,negative,0.8593
+6,Base mBERT,recall,negative,0.809
+6,Fine-tuned mBERT,recall,negative,0.8392
+6,Base distil-mBERT,recall,neutral,0.8801
+6,Fine-tuned distil-mBERT,recall,neutral,0.8768
+6,Base RuBERT,recall,neutral,0.8292
+6,Fine-tuned RuBERT,recall,neutral,0.8407
+6,Base mBERT,recall,neutral,0.8539
+6,Fine-tuned mBERT,recall,neutral,0.8654
+6,Base distil-mBERT,recall,positive,0.7069
+6,Fine-tuned distil-mBERT,recall,positive,0.7241
+6,Base RuBERT,recall,positive,0.5621
+6,Fine-tuned RuBERT,recall,positive,0.731
+6,Base mBERT,recall,positive,0.6552
+6,Fine-tuned mBERT,recall,positive,0.6414
+6,Base distil-mBERT,recall,macro avg,0.8104
+6,Fine-tuned distil-mBERT,recall,macro avg,0.8285
+6,Base RuBERT,recall,macro avg,0.715
+6,Fine-tuned RuBERT,recall,macro avg,0.8104
+6,Base mBERT,recall,macro avg,0.7727
+6,Fine-tuned mBERT,recall,macro avg,0.782
+6,Base distil-mBERT,recall,weighted avg,0.8279
+6,Fine-tuned distil-mBERT,recall,weighted avg,0.8379
+6,Base RuBERT,recall,weighted avg,0.745
+6,Fine-tuned RuBERT,recall,weighted avg,0.8151
+6,Base mBERT,recall,weighted avg,0.7933
+6,Fine-tuned mBERT,recall,weighted avg,0.8015
+6,Base distil-mBERT,f1-score,negative,0.7385
+6,Fine-tuned distil-mBERT,f1-score,negative,0.7805
+6,Base RuBERT,f1-score,negative,0.6397
+6,Fine-tuned RuBERT,f1-score,negative,0.7533
+6,Base mBERT,f1-score,negative,0.697
+6,Fine-tuned mBERT,f1-score,negative,0.7091
+6,Base distil-mBERT,f1-score,neutral,0.8948
+6,Fine-tuned distil-mBERT,f1-score,neutral,0.8922
+6,Base RuBERT,f1-score,neutral,0.8567
+6,Fine-tuned RuBERT,f1-score,neutral,0.873
+6,Base mBERT,f1-score,neutral,0.8851
+6,Fine-tuned mBERT,f1-score,neutral,0.885
+6,Base distil-mBERT,f1-score,positive,0.7551
+6,Fine-tuned distil-mBERT,f1-score,positive,0.7664
+6,Base RuBERT,f1-score,positive,0.5949
+6,Fine-tuned RuBERT,f1-score,positive,0.7452
+6,Base mBERT,f1-score,positive,0.6798
+6,Fine-tuned mBERT,f1-score,positive,0.6966
+6,Base distil-mBERT,f1-score,macro avg,0.7961
+6,Fine-tuned distil-mBERT,f1-score,macro avg,0.813
+6,Base RuBERT,f1-score,macro avg,0.6971
+6,Fine-tuned RuBERT,f1-score,macro avg,0.7905
+6,Base mBERT,f1-score,macro avg,0.754
+6,Fine-tuned mBERT,f1-score,macro avg,0.7636
+6,Base distil-mBERT,f1-score,weighted avg,0.8296
+6,Fine-tuned distil-mBERT,f1-score,weighted avg,0.8388
+6,Base RuBERT,f1-score,weighted avg,0.7482
+6,Fine-tuned RuBERT,f1-score,weighted avg,0.8175
+6,Base mBERT,f1-score,weighted avg,0.7968
+6,Fine-tuned mBERT,f1-score,weighted avg,0.8034
+6,Base distil-mBERT,accuracy,,0.8279
+6,Fine-tuned distil-mBERT,accuracy,,0.8379
+6,Base RuBERT,accuracy,,0.745
+6,Fine-tuned RuBERT,accuracy,,0.8151
+6,Base mBERT,accuracy,,0.7933
+6,Fine-tuned mBERT,accuracy,,0.8015
+7,Base distil-mBERT,precision,negative,0.6626
+7,Fine-tuned distil-mBERT,precision,negative,0.6615
+7,Base RuBERT,precision,negative,0.5609
+7,Fine-tuned RuBERT,precision,negative,0.6667
+7,Base mBERT,precision,negative,0.5587
+7,Fine-tuned mBERT,precision,negative,0.6767
+7,Base distil-mBERT,precision,neutral,0.9134
+7,Fine-tuned distil-mBERT,precision,neutral,0.9346
+7,Base RuBERT,precision,neutral,0.8706
+7,Fine-tuned RuBERT,precision,neutral,0.9266
+7,Base mBERT,precision,neutral,0.8899
+7,Fine-tuned mBERT,precision,neutral,0.9525
+7,Base distil-mBERT,precision,positive,0.7243
+7,Fine-tuned distil-mBERT,precision,positive,0.7426
+7,Base RuBERT,precision,positive,0.5845
+7,Fine-tuned RuBERT,precision,positive,0.7296
+7,Base mBERT,precision,positive,0.616
+7,Fine-tuned mBERT,precision,positive,0.8035
+7,Base distil-mBERT,precision,macro avg,0.7667
+7,Fine-tuned distil-mBERT,precision,macro avg,0.7796
+7,Base RuBERT,precision,macro avg,0.672
+7,Fine-tuned RuBERT,precision,macro avg,0.7743
+7,Base mBERT,precision,macro avg,0.6882
+7,Fine-tuned mBERT,precision,macro avg,0.8109
+7,Base distil-mBERT,precision,weighted avg,0.818
+7,Fine-tuned distil-mBERT,precision,weighted avg,0.8344
+7,Base RuBERT,precision,weighted avg,0.7389
+7,Fine-tuned RuBERT,precision,weighted avg,0.8275
+7,Base mBERT,precision,weighted avg,0.7575
+7,Fine-tuned mBERT,precision,weighted avg,0.8631
+7,Base distil-mBERT,recall,negative,0.809
+7,Fine-tuned distil-mBERT,recall,negative,0.8643
+7,Base RuBERT,recall,negative,0.6482
+7,Fine-tuned RuBERT,recall,negative,0.8241
+7,Base mBERT,recall,negative,0.7889
+7,Fine-tuned mBERT,recall,negative,0.9045
+7,Base distil-mBERT,recall,neutral,0.8309
+7,Fine-tuned distil-mBERT,recall,neutral,0.821
+7,Base RuBERT,recall,neutral,0.8177
+7,Fine-tuned RuBERT,recall,neutral,0.8292
+7,Base mBERT,recall,neutral,0.8095
+7,Fine-tuned mBERT,recall,neutral,0.8555
+7,Base distil-mBERT,recall,positive,0.7517
+7,Fine-tuned distil-mBERT,recall,positive,0.7759
+7,Base RuBERT,recall,positive,0.5966
+7,Fine-tuned RuBERT,recall,positive,0.7724
+7,Base mBERT,recall,positive,0.5586
+7,Fine-tuned mBERT,recall,positive,0.7897
+7,Base distil-mBERT,recall,macro avg,0.7972
+7,Fine-tuned distil-mBERT,recall,macro avg,0.8204
+7,Base RuBERT,recall,macro avg,0.6875
+7,Fine-tuned RuBERT,recall,macro avg,0.8086
+7,Base mBERT,recall,macro avg,0.719
+7,Fine-tuned mBERT,recall,macro avg,0.8499
+7,Base distil-mBERT,recall,weighted avg,0.806
+7,Fine-tuned distil-mBERT,recall,weighted avg,0.8169
+7,Base RuBERT,recall,weighted avg,0.7286
+7,Fine-tuned RuBERT,recall,weighted avg,0.8133
+7,Base mBERT,recall,weighted avg,0.7395
+7,Fine-tuned mBERT,recall,weighted avg,0.847
+7,Base distil-mBERT,f1-score,negative,0.7285
+7,Fine-tuned distil-mBERT,f1-score,negative,0.7495
+7,Base RuBERT,f1-score,negative,0.6014
+7,Fine-tuned RuBERT,f1-score,negative,0.7371
+7,Base mBERT,f1-score,negative,0.6542
+7,Fine-tuned mBERT,f1-score,negative,0.7742
+7,Base distil-mBERT,f1-score,neutral,0.8702
+7,Fine-tuned distil-mBERT,f1-score,neutral,0.8741
+7,Base RuBERT,f1-score,neutral,0.8434
+7,Fine-tuned RuBERT,f1-score,neutral,0.8752
+7,Base mBERT,f1-score,neutral,0.8478
+7,Fine-tuned mBERT,f1-score,neutral,0.9014
+7,Base distil-mBERT,f1-score,positive,0.7377
+7,Fine-tuned distil-mBERT,f1-score,positive,0.7589
+7,Base RuBERT,f1-score,positive,0.5904
+7,Fine-tuned RuBERT,f1-score,positive,0.7504
+7,Base mBERT,f1-score,positive,0.5859
+7,Fine-tuned mBERT,f1-score,positive,0.7965
+7,Base distil-mBERT,f1-score,macro avg,0.7788
+7,Fine-tuned distil-mBERT,f1-score,macro avg,0.7941
+7,Base RuBERT,f1-score,macro avg,0.6784
+7,Fine-tuned RuBERT,f1-score,macro avg,0.7876
+7,Base mBERT,f1-score,macro avg,0.696
+7,Fine-tuned mBERT,f1-score,macro avg,0.824
+7,Base distil-mBERT,f1-score,weighted avg,0.8095
+7,Fine-tuned distil-mBERT,f1-score,weighted avg,0.8211
+7,Base RuBERT,f1-score,weighted avg,0.7327
+7,Fine-tuned RuBERT,f1-score,weighted avg,0.8172
+7,Base mBERT,f1-score,weighted avg,0.7435
+7,Fine-tuned mBERT,f1-score,weighted avg,0.8506
+7,Base distil-mBERT,accuracy,,0.806
+7,Fine-tuned distil-mBERT,accuracy,,0.8169
+7,Base RuBERT,accuracy,,0.7286
+7,Fine-tuned RuBERT,accuracy,,0.8133
+7,Base mBERT,accuracy,,0.7395
+7,Fine-tuned mBERT,accuracy,,0.847
+8,Base distil-mBERT,precision,negative,0.6872
+8,Fine-tuned distil-mBERT,precision,negative,0.6466
+8,Base RuBERT,precision,negative,0.5214
+8,Fine-tuned RuBERT,precision,negative,0.6706
+8,Base mBERT,precision,negative,0.5833
+8,Fine-tuned mBERT,precision,negative,0.7033
+8,Base distil-mBERT,precision,neutral,0.9139
+8,Fine-tuned distil-mBERT,precision,neutral,0.9267
+8,Base RuBERT,precision,neutral,0.8953
+8,Fine-tuned RuBERT,precision,neutral,0.9179
+8,Base mBERT,precision,neutral,0.9071
+8,Fine-tuned mBERT,precision,neutral,0.9224
+8,Base distil-mBERT,precision,positive,0.745
+8,Fine-tuned distil-mBERT,precision,positive,0.7261
+8,Base RuBERT,precision,positive,0.6612
+8,Fine-tuned RuBERT,precision,positive,0.7845
+8,Base mBERT,precision,positive,0.6935
+8,Fine-tuned mBERT,precision,positive,0.7965
+8,Base distil-mBERT,precision,macro avg,0.782
+8,Fine-tuned distil-mBERT,precision,macro avg,0.7665
+8,Base RuBERT,precision,macro avg,0.6926
+8,Fine-tuned RuBERT,precision,macro avg,0.791
+8,Base mBERT,precision,macro avg,0.728
+8,Fine-tuned mBERT,precision,macro avg,0.8074
+8,Base distil-mBERT,precision,weighted avg,0.8282
+8,Fine-tuned distil-mBERT,precision,weighted avg,0.823
+8,Base RuBERT,precision,weighted avg,0.7657
+8,Fine-tuned RuBERT,precision,weighted avg,0.8378
+8,Base mBERT,precision,weighted avg,0.792
+8,Fine-tuned mBERT,precision,weighted avg,0.8494
+8,Base distil-mBERT,recall,negative,0.7839
+8,Fine-tuned distil-mBERT,recall,negative,0.809
+8,Base RuBERT,recall,negative,0.7337
+8,Fine-tuned RuBERT,recall,negative,0.8593
+8,Base mBERT,recall,negative,0.8442
+8,Fine-tuned mBERT,recall,negative,0.8693
+8,Base distil-mBERT,recall,neutral,0.8539
+8,Fine-tuned distil-mBERT,recall,neutral,0.8309
+8,Base RuBERT,recall,neutral,0.8424
+8,Fine-tuned RuBERT,recall,neutral,0.844
+8,Base mBERT,recall,neutral,0.8177
+8,Fine-tuned mBERT,recall,neutral,0.8588
+8,Base distil-mBERT,recall,positive,0.7759
+8,Fine-tuned distil-mBERT,recall,positive,0.7586
+8,Base RuBERT,recall,positive,0.5586
+8,Fine-tuned RuBERT,recall,positive,0.7655
+8,Base mBERT,recall,positive,0.6241
+8,Fine-tuned mBERT,recall,positive,0.7828
+8,Base distil-mBERT,recall,macro avg,0.8045
+8,Fine-tuned distil-mBERT,recall,macro avg,0.7995
+8,Base RuBERT,recall,macro avg,0.7116
+8,Fine-tuned RuBERT,recall,macro avg,0.8229
+8,Base mBERT,recall,macro avg,0.762
+8,Fine-tuned mBERT,recall,macro avg,0.837
+8,Base distil-mBERT,recall,weighted avg,0.8206
+8,Fine-tuned distil-mBERT,recall,weighted avg,0.8078
+8,Base RuBERT,recall,weighted avg,0.7477
+8,Fine-tuned RuBERT,recall,weighted avg,0.826
+8,Base mBERT,recall,weighted avg,0.7714
+8,Fine-tuned mBERT,recall,weighted avg,0.8406
+8,Base distil-mBERT,f1-score,negative,0.7324
+8,Fine-tuned distil-mBERT,f1-score,negative,0.7188
+8,Base RuBERT,f1-score,negative,0.6096
+8,Fine-tuned RuBERT,f1-score,negative,0.7533
+8,Base mBERT,f1-score,negative,0.6899
+8,Fine-tuned mBERT,f1-score,negative,0.7775
+8,Base distil-mBERT,f1-score,neutral,0.8829
+8,Fine-tuned distil-mBERT,f1-score,neutral,0.8762
+8,Base RuBERT,f1-score,neutral,0.868
+8,Fine-tuned RuBERT,f1-score,neutral,0.8794
+8,Base mBERT,f1-score,neutral,0.8601
+8,Fine-tuned mBERT,f1-score,neutral,0.8895
+8,Base distil-mBERT,f1-score,positive,0.7601
+8,Fine-tuned distil-mBERT,f1-score,positive,0.742
+8,Base RuBERT,f1-score,positive,0.6056
+8,Fine-tuned RuBERT,f1-score,positive,0.7749
+8,Base mBERT,f1-score,positive,0.657
+8,Fine-tuned mBERT,f1-score,positive,0.7896
+8,Base distil-mBERT,f1-score,macro avg,0.7918
+8,Fine-tuned distil-mBERT,f1-score,macro avg,0.779
+8,Base RuBERT,f1-score,macro avg,0.6944
+8,Fine-tuned RuBERT,f1-score,macro avg,0.8025
+8,Base mBERT,f1-score,macro avg,0.7357
+8,Fine-tuned mBERT,f1-score,macro avg,0.8188
+8,Base distil-mBERT,f1-score,weighted avg,0.8232
+8,Fine-tuned distil-mBERT,f1-score,weighted avg,0.8122
+8,Base RuBERT,f1-score,weighted avg,0.7519
+8,Fine-tuned RuBERT,f1-score,weighted avg,0.8289
+8,Base mBERT,f1-score,weighted avg,0.7756
+8,Fine-tuned mBERT,f1-score,weighted avg,0.8428
+8,Base distil-mBERT,accuracy,,0.8206
+8,Fine-tuned distil-mBERT,accuracy,,0.8078
+8,Base RuBERT,accuracy,,0.7477
+8,Fine-tuned RuBERT,accuracy,,0.826
+8,Base mBERT,accuracy,,0.7714
+8,Fine-tuned mBERT,accuracy,,0.8406
+9,Base distil-mBERT,precision,negative,0.6198
+9,Fine-tuned distil-mBERT,precision,negative,0.6304
+9,Base RuBERT,precision,negative,0.5073
+9,Fine-tuned RuBERT,precision,negative,0.6705
+9,Base mBERT,precision,negative,0.6014
+9,Fine-tuned mBERT,precision,negative,0.7042
+9,Base distil-mBERT,precision,neutral,0.9229
+9,Fine-tuned distil-mBERT,precision,neutral,0.944
+9,Base RuBERT,precision,neutral,0.9023
+9,Fine-tuned RuBERT,precision,neutral,0.9146
+9,Base mBERT,precision,neutral,0.9225
+9,Fine-tuned mBERT,precision,neutral,0.9413
+9,Base distil-mBERT,precision,positive,0.7803
+9,Fine-tuned distil-mBERT,precision,positive,0.7596
+9,Base RuBERT,precision,positive,0.6056
+9,Fine-tuned RuBERT,precision,positive,0.8045
+9,Base mBERT,precision,positive,0.7531
+9,Fine-tuned mBERT,precision,positive,0.8007
+9,Base distil-mBERT,precision,macro avg,0.7743
+9,Fine-tuned distil-mBERT,precision,macro avg,0.778
+9,Base RuBERT,precision,macro avg,0.6717
+9,Fine-tuned RuBERT,precision,macro avg,0.7966
+9,Base mBERT,precision,macro avg,0.759
+9,Fine-tuned mBERT,precision,macro avg,0.8154
+9,Base distil-mBERT,precision,weighted avg,0.8303
+9,Fine-tuned distil-mBERT,precision,weighted avg,0.8385
+9,Base RuBERT,precision,weighted avg,0.7523
+9,Fine-tuned RuBERT,precision,weighted avg,0.8413
+9,Base mBERT,precision,weighted avg,0.8196
+9,Fine-tuned mBERT,precision,weighted avg,0.8612
+9,Base distil-mBERT,recall,negative,0.8191
+9,Fine-tuned distil-mBERT,recall,negative,0.8141
+9,Base RuBERT,recall,negative,0.6985
+9,Fine-tuned RuBERT,recall,negative,0.8693
+9,Base mBERT,recall,negative,0.8794
+9,Fine-tuned mBERT,recall,negative,0.8492
+9,Base distil-mBERT,recall,neutral,0.8654
+9,Fine-tuned distil-mBERT,recall,neutral,0.8588
+9,Base RuBERT,recall,neutral,0.8489
+9,Fine-tuned RuBERT,recall,neutral,0.8621
+9,Base mBERT,recall,neutral,0.8604
+9,Fine-tuned mBERT,recall,neutral,0.8686
+9,Base distil-mBERT,recall,positive,0.7103
+9,Fine-tuned distil-mBERT,recall,positive,0.7517
+9,Base RuBERT,recall,positive,0.5241
+9,Fine-tuned RuBERT,recall,positive,0.7379
+9,Base mBERT,recall,positive,0.6207
+9,Fine-tuned mBERT,recall,positive,0.8172
+9,Base distil-mBERT,recall,macro avg,0.7983
+9,Fine-tuned distil-mBERT,recall,macro avg,0.8082
+9,Base RuBERT,recall,macro avg,0.6905
+9,Fine-tuned RuBERT,recall,macro avg,0.8231
+9,Base mBERT,recall,macro avg,0.7868
+9,Fine-tuned mBERT,recall,macro avg,0.845
+9,Base distil-mBERT,recall,weighted avg,0.816
+9,Fine-tuned distil-mBERT,recall,weighted avg,0.8224
+9,Base RuBERT,recall,weighted avg,0.7359
+9,Fine-tuned RuBERT,recall,weighted avg,0.8306
+9,Base mBERT,recall,weighted avg,0.8005
+9,Fine-tuned mBERT,recall,weighted avg,0.8515
+9,Base distil-mBERT,f1-score,negative,0.7056
+9,Fine-tuned distil-mBERT,f1-score,negative,0.7105
+9,Base RuBERT,f1-score,negative,0.5877
+9,Fine-tuned RuBERT,f1-score,negative,0.7571
+9,Base mBERT,f1-score,negative,0.7143
+9,Fine-tuned mBERT,f1-score,negative,0.7699
+9,Base distil-mBERT,f1-score,neutral,0.8932
+9,Fine-tuned distil-mBERT,f1-score,neutral,0.8994
+9,Base RuBERT,f1-score,neutral,0.8748
+9,Fine-tuned RuBERT,f1-score,neutral,0.8876
+9,Base mBERT,f1-score,neutral,0.8904
+9,Fine-tuned mBERT,f1-score,neutral,0.9035
+9,Base distil-mBERT,f1-score,positive,0.7437
+9,Fine-tuned distil-mBERT,f1-score,positive,0.7556
+9,Base RuBERT,f1-score,positive,0.5619
+9,Fine-tuned RuBERT,f1-score,positive,0.7698
+9,Base mBERT,f1-score,positive,0.6805
+9,Fine-tuned mBERT,f1-score,positive,0.8089
+9,Base distil-mBERT,f1-score,macro avg,0.7808
+9,Fine-tuned distil-mBERT,f1-score,macro avg,0.7885
+9,Base RuBERT,f1-score,macro avg,0.6748
+9,Fine-tuned RuBERT,f1-score,macro avg,0.8048
+9,Base mBERT,f1-score,macro avg,0.7617
+9,Fine-tuned mBERT,f1-score,macro avg,0.8274
+9,Base distil-mBERT,f1-score,weighted avg,0.8197
+9,Fine-tuned distil-mBERT,f1-score,weighted avg,0.8272
+9,Base RuBERT,f1-score,weighted avg,0.7401
+9,Fine-tuned RuBERT,f1-score,weighted avg,0.8328
+9,Base mBERT,f1-score,weighted avg,0.8031
+9,Fine-tuned mBERT,f1-score,weighted avg,0.8543
+9,Base distil-mBERT,accuracy,,0.816
+9,Fine-tuned distil-mBERT,accuracy,,0.8224
+9,Base RuBERT,accuracy,,0.7359
+9,Fine-tuned RuBERT,accuracy,,0.8306
+9,Base mBERT,accuracy,,0.8005
+9,Fine-tuned mBERT,accuracy,,0.8515
+10,Base distil-mBERT,precision,negative,0.6557
+10,Fine-tuned distil-mBERT,precision,negative,0.6577
+10,Base RuBERT,precision,negative,0.4771
+10,Fine-tuned RuBERT,precision,negative,0.7025
+10,Base mBERT,precision,negative,0.5743
+10,Fine-tuned mBERT,precision,negative,0.6885
+10,Base distil-mBERT,precision,neutral,0.9241
+10,Fine-tuned distil-mBERT,precision,neutral,0.9088
+10,Base RuBERT,precision,neutral,0.9028
+10,Fine-tuned RuBERT,precision,neutral,0.9195
+10,Base mBERT,precision,neutral,0.9059
+10,Fine-tuned mBERT,precision,neutral,0.9287
+10,Base distil-mBERT,precision,positive,0.7375
+10,Fine-tuned distil-mBERT,precision,positive,0.7599
+10,Base RuBERT,precision,positive,0.6195
+10,Fine-tuned RuBERT,precision,positive,0.7643
+10,Base mBERT,precision,positive,0.7155
+10,Fine-tuned mBERT,precision,positive,0.8159
+10,Base distil-mBERT,precision,macro avg,0.7724
+10,Fine-tuned distil-mBERT,precision,macro avg,0.7754
+10,Base RuBERT,precision,macro avg,0.6665
+10,Fine-tuned RuBERT,precision,macro avg,0.7954
+10,Base mBERT,precision,macro avg,0.7319
+10,Fine-tuned mBERT,precision,macro avg,0.811
+10,Base distil-mBERT,precision,weighted avg,0.8262
+10,Fine-tuned distil-mBERT,precision,weighted avg,0.8239
+10,Base RuBERT,precision,weighted avg,0.7508
+10,Fine-tuned RuBERT,precision,weighted avg,0.8392
+10,Base mBERT,precision,weighted avg,0.7955
+10,Fine-tuned mBERT,precision,weighted avg,0.8554
+10,Base distil-mBERT,recall,negative,0.804
+10,Fine-tuned distil-mBERT,recall,negative,0.8593
+10,Base RuBERT,recall,negative,0.7337
+10,Fine-tuned RuBERT,recall,negative,0.8543
+10,Base mBERT,recall,negative,0.8543
+10,Fine-tuned mBERT,recall,negative,0.8995
+10,Base distil-mBERT,recall,neutral,0.8391
+10,Fine-tuned distil-mBERT,recall,neutral,0.8342
+10,Base RuBERT,recall,neutral,0.8391
+10,Fine-tuned RuBERT,recall,neutral,0.844
+10,Base mBERT,recall,neutral,0.8374
+10,Fine-tuned mBERT,recall,neutral,0.8555
+10,Base distil-mBERT,recall,positive,0.7655
+10,Fine-tuned distil-mBERT,recall,positive,0.731
+10,Base RuBERT,recall,positive,0.4828
+10,Fine-tuned RuBERT,recall,positive,0.7828
+10,Base mBERT,recall,positive,0.5897
+10,Fine-tuned mBERT,recall,positive,0.7793
+10,Base distil-mBERT,recall,macro avg,0.8029
+10,Fine-tuned distil-mBERT,recall,macro avg,0.8082
+10,Base RuBERT,recall,macro avg,0.6852
+10,Fine-tuned RuBERT,recall,macro avg,0.827
+10,Base mBERT,recall,macro avg,0.7605
+10,Fine-tuned mBERT,recall,macro avg,0.8448
+10,Base distil-mBERT,recall,weighted avg,0.8133
+10,Fine-tuned distil-mBERT,recall,weighted avg,0.8115
+10,Base RuBERT,recall,weighted avg,0.7259
+10,Fine-tuned RuBERT,recall,weighted avg,0.8297
+10,Base mBERT,recall,weighted avg,0.775
+10,Fine-tuned mBERT,recall,weighted avg,0.8434
+10,Base distil-mBERT,f1-score,negative,0.7223
+10,Fine-tuned distil-mBERT,f1-score,negative,0.7451
+10,Base RuBERT,f1-score,negative,0.5782
+10,Fine-tuned RuBERT,f1-score,negative,0.771
+10,Base mBERT,f1-score,negative,0.6869
+10,Fine-tuned mBERT,f1-score,negative,0.78
+10,Base distil-mBERT,f1-score,neutral,0.8795
+10,Fine-tuned distil-mBERT,f1-score,neutral,0.8699
+10,Base RuBERT,f1-score,neutral,0.8698
+10,Fine-tuned RuBERT,f1-score,neutral,0.8801
+10,Base mBERT,f1-score,neutral,0.8703
+10,Fine-tuned mBERT,f1-score,neutral,0.8906
+10,Base distil-mBERT,f1-score,positive,0.7513
+10,Fine-tuned distil-mBERT,f1-score,positive,0.7452
+10,Base RuBERT,f1-score,positive,0.5426
+10,Fine-tuned RuBERT,f1-score,positive,0.7734
+10,Base mBERT,f1-score,positive,0.6465
+10,Fine-tuned mBERT,f1-score,positive,0.7972
+10,Base distil-mBERT,f1-score,macro avg,0.7844
+10,Fine-tuned distil-mBERT,f1-score,macro avg,0.7867
+10,Base RuBERT,f1-score,macro avg,0.6635
+10,Fine-tuned RuBERT,f1-score,macro avg,0.8082
+10,Base mBERT,f1-score,macro avg,0.7346
+10,Fine-tuned mBERT,f1-score,macro avg,0.8226
+10,Base distil-mBERT,f1-score,weighted avg,0.8172
+10,Fine-tuned distil-mBERT,f1-score,weighted avg,0.8143
+10,Base RuBERT,f1-score,weighted avg,0.7305
+10,Fine-tuned RuBERT,f1-score,weighted avg,0.8322
+10,Base mBERT,f1-score,weighted avg,0.778
+10,Fine-tuned mBERT,f1-score,weighted avg,0.8459
+10,Base distil-mBERT,accuracy,,0.8133
+10,Fine-tuned distil-mBERT,accuracy,,0.8115
+10,Base RuBERT,accuracy,,0.7259
+10,Fine-tuned RuBERT,accuracy,,0.8297
+10,Base mBERT,accuracy,,0.775
+10,Fine-tuned mBERT,accuracy,,0.8434
